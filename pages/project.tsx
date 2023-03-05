@@ -12,7 +12,7 @@ export default function project() {
     >
       <div className="lg:mt-32 mt-20 pb-12">
         <div className="flex justify-center">
-          <div className="pb-">
+          <div className="">
             <div className="relative group">
               <div className="absolute -inset-2 bg-gradient-to-r from-cyan-500/50 to-cyan-500/50 rounded-lg blur opacity-60 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
               <div className="relative flex bg-white rounded-lg lg:p-2 p-2 lg:px-4 px-2 overflow-hidden">

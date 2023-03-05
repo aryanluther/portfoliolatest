@@ -22,8 +22,8 @@ export default function Home() {
           className="absolute top-0 left-0 w-full h-full"
         >
           <div className="relative w-full max-w">
-            <div className="flex i">
-              <div className="absolute lg:ml-96 lg:mt-24 lg:top-10 lg:left-10 top-0 -left-4 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+            <div className="flex">
+              <div className="absolute lg:ml-96 lg:mt-24 mt-20 lg:top-10 lg:left-10 top-0 -left-4 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
 
               <div className="absolute lg:-bottom-8 lg:left-60 -bottom-8 left-20 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
             </div>
