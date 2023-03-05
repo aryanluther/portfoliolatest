@@ -10,7 +10,7 @@ export default function education() {
       exit={{ opacity: 1 }}
       className="absolute top-0 left-0 w-full h-full"
     >
-      <div className="lg:mt-32 mt-4 lg:ml-40 lg:pl-8 pl-4">
+      <div className="lg:mt-32 mt-20 lg:ml-40 lg:pl-8 pl-4">
         <div className="flex">
           <div className="pb-1">
             <div className="relative group">
