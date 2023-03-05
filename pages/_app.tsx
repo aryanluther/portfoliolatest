@@ -6,12 +6,14 @@ import Header from "../components/header";
 export default function App({ Component, pageProps, router }: AppProps) {
   return (
     <>
-      <div className="mb-2">
-        <Header />
+      <div className="overscroll-contain">
+        <div className="mb-2">
+          <Header />
+        </div>
+        <AnimatePresence initial={false} mode={"wait"}>
+          <Component key={router.pathname} {...pageProps} />
+        </AnimatePresence>
       </div>
-      <AnimatePresence initial={false} mode={"wait"}>
-        <Component key={router.pathname} {...pageProps} />
-      </AnimatePresence>
     </>
   );
 }
