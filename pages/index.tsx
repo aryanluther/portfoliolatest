@@ -19,7 +19,7 @@ export default function Home() {
           animate={{ y: "0%" }}
           transition={{ duration: 0.75, ease: "easeOut" }}
           exit={{ opacity: 1 }}
-          className="absolute top-0 left-0 w-full h-auto"
+          className="absolute top-0 left-0 w-full h-auto "
         >
           <div className="relative w-full max-w">
             <div className="flex">
@@ -28,7 +28,7 @@ export default function Home() {
               <div className="absolute lg:-bottom-8 lg:left-60 -bottom-8 left-20 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
             </div>
             <div className="relative">
-              <div className="flex lg:pl-8 pl-4 lg:ml-40 lg:mt-72 mt-32 lg:pr-0 pr-4 p-1">
+              <div className="flex lg:pl-8 pl-4 lg:ml-40 lg:mt-52 mt-20 lg:pr-0 pr-4 p-1">
                 <div>
                   <div className="flex">
                     <div className="overflow-hidden">

@@ -15,7 +15,7 @@ export default function experience() {
       className="absolute top-0 left-0 w-full h-auto"
     >
       <div
-        className="lg:mt-32 mt-20 lg:ml-40 lg:pl-8 pl-4 pb-0
+        className="lg:mt-32 mt-20 lg:ml-40 lg:pl-8 lg:pr-0 pl-4 pr-4 pb-0
       "
       >
         <div className="fex">
@@ -135,10 +135,6 @@ export default function experience() {
           </div>
         </div>
       </div>
-      <footer className="mt-4 flex justify-center bottom-0">
-        {" "}
-        &copy; All rights reserved{" "}
-      </footer>
     </m.div>
   );
 }

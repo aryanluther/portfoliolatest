@@ -2,6 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/experience": "pages/experience.js",
-  "/project": "pages/project.js"
+  "/education": "pages/education.js",
+  "/project": "pages/project.js",
+  "/": "pages/index.js",
+  "/experience": "pages/experience.js"
 }
