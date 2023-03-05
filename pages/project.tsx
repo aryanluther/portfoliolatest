@@ -8,9 +8,9 @@ export default function project() {
       animate={{ y: "0%" }}
       transition={{ duration: 0.75, ease: "easeOut" }}
       exit={{ opacity: 1 }}
-      className="absolute top-0 left-0 w-full h-full"
+      className="absolute top-0 left-0 w-full h-auto"
     >
-      <div className="lg:mt-32 mt-20 pb-12">
+      <div className="lg:mt-32 mt-20 pb-4">
         <div className="flex justify-center">
           <div className="">
             <div className="relative group">
@@ -100,6 +100,10 @@ export default function project() {
           </div>
         </div>
       </div>
+      <footer className="mt-4 flex justify-center bottom-0">
+        {" "}
+        &copy; All rights reserved{" "}
+      </footer>
     </m.div>
   );
 }

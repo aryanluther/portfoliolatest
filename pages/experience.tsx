@@ -12,9 +12,12 @@ export default function experience() {
       animate={{ y: "0%" }}
       transition={{ duration: 0.75, ease: "easeOut" }}
       exit={{ opacity: 1 }}
-      className="absolute top-0 left-0 w-full h-full"
+      className="absolute top-0 left-0 w-full h-auto"
     >
-      <div className="lg:mt-32 mt-20 lg:ml-40 lg:pl-8 pl-4">
+      <div
+        className="lg:mt-32 mt-20 lg:ml-40 lg:pl-8 pl-4 pb-0
+      "
+      >
         <div className="fex">
           <div className="overflow-hidden">
             <m.h1
@@ -132,6 +135,10 @@ export default function experience() {
           </div>
         </div>
       </div>
+      <footer className="mt-4 flex justify-center bottom-0">
+        {" "}
+        &copy; All rights reserved{" "}
+      </footer>
     </m.div>
   );
 }

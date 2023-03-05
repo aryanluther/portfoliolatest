@@ -19,7 +19,7 @@ export default function Home() {
           animate={{ y: "0%" }}
           transition={{ duration: 0.75, ease: "easeOut" }}
           exit={{ opacity: 1 }}
-          className="absolute top-0 left-0 w-full h-full"
+          className="absolute top-0 left-0 w-full h-auto"
         >
           <div className="relative w-full max-w">
             <div className="flex">
