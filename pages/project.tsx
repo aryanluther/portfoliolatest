@@ -10,7 +10,7 @@ export default function project() {
       exit={{ opacity: 1 }}
       className="absolute top-0 left-0 w-full h-full"
     >
-      <div className="lg:mt-32 mt-4 pb-12">
+      <div className="lg:mt-32 mt-20 pb-12">
         <div className="flex justify-center">
           <div className="pb-">
             <div className="relative group">
