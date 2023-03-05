@@ -14,7 +14,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <m.div>
+        <m.div
+          initial={{ y: "100%" }}
+          animate={{ y: "0%" }}
+          transition={{ duration: 0.75, ease: "easeOut" }}
+          exit={{ opacity: 1 }}
+          className="absolute top-0 left-0 w-full h-full"
+        >
           <div className="relative w-full max-w">
             <div className="flex i">
               <div className="absolute lg:ml-96 lg:mt-24 lg:top-10 lg:left-10 top-0 -left-4 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
@@ -22,12 +28,19 @@ export default function Home() {
               <div className="absolute lg:-bottom-8 lg:left-60 -bottom-8 left-20 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
             </div>
             <div className="relative">
-              <div className="flex lg:pl-8 pl-4 lg:ml-40 lg:mt-32 mt-32 lg:pr-0 pr-4 p-1">
+              <div className="flex lg:pl-8 pl-4 lg:ml-40 lg:mt-72 mt-32 lg:pr-0 pr-4 p-1">
                 <div>
                   <div className="flex">
-                    <h2 className="text-2xl lg:text-6xl font-bold pr-3">
-                      Hello
-                    </h2>
+                    <div className="overflow-hidden">
+                      <m.h2
+                        animate={{ y: 0 }}
+                        initial={{ y: "100%" }}
+                        transition={{ delay: 0.5, duration: 0.5 }}
+                        className="text-2xl lg:text-6xl font-bold pr-3"
+                      >
+                        Hello
+                      </m.h2>
+                    </div>
                     <span className="animate-bounce">
                       <img src="https://img.icons8.com/ios/50/null/so-so.png" />
                     </span>

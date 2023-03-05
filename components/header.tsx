@@ -4,7 +4,7 @@ import React from "react";
 export default function header() {
   return (
     <>
-      <nav className="pt-5 lg:pl-10 text-xl">
+      <nav className="pt-5 text-xl font-medium z-20 relative">
         <div className="flex items-center justify-center">
           <div className="">
             <div
