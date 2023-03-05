@@ -14,7 +14,7 @@ export default function experience() {
       exit={{ opacity: 1 }}
       className="absolute top-0 left-0 w-full h-auto"
     >
-      <div className="lg:mt-32 mt-4 lg:ml-40 lg:pl-8 pl-4">
+      <div className="lg:mt-32 mt-20 lg:ml-40 lg:pl-8 pl-4">
         <div className="fex">
           <div className="overflow-hidden">
             <m.h1
